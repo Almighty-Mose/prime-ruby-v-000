@@ -1,4 +1,6 @@
-require ''
+require 'benchmark'
+
+benchmark.bmdo
 
 def prime?(num)
   return false if num <= 1
