@@ -7,7 +7,7 @@ end
 
 numbers = Array(2..10000)
 
-benchmark.bm do |bm|
+Benchmark.bm do |bm|
   bm.report do
     prime(numbers)
   end
