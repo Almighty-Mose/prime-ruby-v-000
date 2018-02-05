@@ -1,5 +1,5 @@
 require 'benchmark'
-
+iterations = 100_000
 benchmark.bmdo |bm|
 
 bm.report do
