@@ -11,4 +11,5 @@ benchmark.bm do |bm|
 
 bm.report do
   prime(numbers)
+end
   
