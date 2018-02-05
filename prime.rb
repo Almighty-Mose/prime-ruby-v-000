@@ -1,3 +1,4 @@
-def prime?(i)
+def prime?(num)
+  return if 
   
 end
