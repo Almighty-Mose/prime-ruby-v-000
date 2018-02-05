@@ -8,8 +8,8 @@ end
 numbers = Array(2..10000)
 
 benchmark.bm do |bm|
-
-bm.report do
-  prime(numbers)
+  bm.report do
+    prime(numbers)
+  end
 end
   
