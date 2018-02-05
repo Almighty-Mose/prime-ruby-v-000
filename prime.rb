@@ -5,7 +5,7 @@ def prime?(num)
   (2..Math.sqrt(num)).none? {|i| (num % i).zero?} 
 end
 
-numbers = Array(2..10000)
+numbers = Array(2..1000000)
 
 Benchmark.bm do |bm|
   bm.report do
