@@ -5,7 +5,10 @@ def prime?(num)
   (2..Math.sqrt(num)).none? {|i| (num % i).zero?} 
 end
 
-iterations = 100_000
+iterations = 2..10000
 
-benchmark.bmdo|bm|
+benchmark.bm do |bm|
 
+bm.report do
+  prime(iterations)
+  
