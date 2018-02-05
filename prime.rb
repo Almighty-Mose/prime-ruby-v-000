@@ -9,7 +9,7 @@ numbers = Array(2..10000)
 
 Benchmark.bm do |bm|
   bm.report do
-    prime(numbers)
+    prime?(numbers)
   end
 end
   
